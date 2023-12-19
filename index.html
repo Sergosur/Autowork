@@ -28,9 +28,13 @@
                         alt='unity'
                         style='width:300px'>Доход от 7000 в день
                     доплата за тяжелые доставки, доплата за километры
-                    <form action='/' method='post'>
-                        <label >Ваше Имя</label>   <input value="Имя"> 
+                    <form id="my_body" action='/' method='post'>
+                        <label >Ваше Имя</label>   <input id='weight'> 
                         <div></div>
+                        <input type='number' id="year"  placeholder='Ваш год рождения'>
+<input type='button' value='Вычислить возраст' onclick='calc_age(year.value)'>
+<h1>Ваш возраст примерно </h1><p id='age'></p>
+div></div>
                         <label >Ваша Фамилия</label>   <input value="Фамилия">
                         <div></div>
                         <label >Гражданство</label>   <input placeholder="Гражданство" list="learn">
