@@ -1,0 +1,31 @@
+/* это комментарий */
+/* первая табличка это цвета */
+/* по имени селектор выбирает цвет */
+/* по имени с дезиком сеектор выбирает id-шник */
+table {
+    margin: 150;
+}
+    { background-color:rgb(219, 217, 226)
+    }
+    body {
+        background-color:rgb(207, 151, 29)
+    }
+    /* по имени с диезиком
+    селектор выбирает id-шник */
+    #topleft2 {
+        background-color: rgb(255, 0, 64)
+    }
+    /* по имени с точечкой
+    селектор выбирает класс */
+    .sky {
+        background-color: rgb(255, 94, 0);
+    }
+    .sky2 {
+        background-color: rgb(255, 123, 0);
+    }
+    .sky3 {
+        background-color: rgb(255, 38, 0);
+    }
+tr { background-color: rgb(255,38,0)
+}
+td {background-color: rgb(192, 179, 196)}

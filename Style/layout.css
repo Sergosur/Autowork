@@ -1,0 +1,31 @@
+table {
+margin: 250px;
+width: 100%;
+height: 90vh;
+}
+/* по имени с диезиком
+селектор выбирает id-шник */
+#topleft1 {
+	width: 200px;
+}
+/* по имени с точечкой
+селектор выбирает класс */
+.sky {
+	height: 50px;}
+.sky2 {
+	background-color: rgb(0, 47, 255);
+}
+.street1{
+    width: 150px;
+    height: 150px;
+    text-align:center;
+     
+}
+td {
+margin: 250px;
+padding: 10px;
+width: 10px;
+border-color: black;
+border-style:double;
+border: 5px
+}
